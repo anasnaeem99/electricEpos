@@ -1,0 +1,235 @@
+/*!
+ * AdminLTE v2.4.18
+ */
+/*
+ * Core: Custom Layout Style
+ * -------------------------
+ */
+
+body{
+	font-family: 'arial';
+}
+
+#myDashboard{
+	cursor: default;
+	-webkit-user-select: none;
+	user-select: none;
+}
+
+#myHeader{
+	-webkit-user-select: none;
+	user-select: none;
+}
+
+#myAside{
+	-webkit-user-select: none;
+	user-select: none;
+	box-shadow: 0px 0px 20px 3px #000;
+}
+
+#myFooter{
+	cursor: default;
+}
+
+#myDashboardHead{
+	box-shadow: -20px -6px 20px 0px #282d47;
+	padding: 2vw;
+	border-radius: 0.4vw;
+	cursor: default;
+	font-size: 24px;
+}
+
+#welcomeText{
+    position:relative;
+    -webkit-animation:linear;
+    -webkit-animation-direction:normal;
+    -webkit-animation-name: run;
+    -webkit-animation-duration: 1s;
+    //text-shadow: 2px 2px #215a69;
+}     
+@-webkit-keyframes run1 {
+    0% { left: -50%;}
+    50%{ left : -30%;}
+    100%{ left: 0;}
+}
+
+.widthMaxContent{
+	max-width: 100%;
+    min-width: max-content;
+    width: -webkit-fill-available;
+    display: inline-block;
+}
+
+.select2{
+	//width: 100% !important;
+}
+
+.form-group .select2{
+	//width: 100% !important;
+}
+
+table .col-md-12{
+	width: max-content;
+}
+
+.btn-group>span{
+	text-shadow: 0px 1px 20px #000000;
+}
+
+.btn-group>a>i{
+	text-shadow: 0px 1px 20px #000000;
+}
+
+table>thead>tr>th>input{
+	width: 100% !important;
+}
+
+table>tbody>tr>td>input{
+	//width: 100% !important;
+}
+
+th{
+	//background-color: #dff0d8;
+}
+
+tr{
+	//background-color: #f9f9f9;
+}
+
+table tbody tr{
+	background-color: #f6f6f6 !important;
+}
+
+table th{
+	//border: 0px solid #f4f4f4 !important;
+	border-bottom: 2px solid #f4f4f4 !important;
+}
+
+table td{
+	//vertical-align: middle !important;
+}
+
+.tab-content>.active {
+	display: flex !important;
+}
+
+.nav-tabs>li>a {
+	//background-image: linear-gradient(#8fb5d3, #f1f1f1) !important;
+	//background-image: linear-gradient(#f7f7f7, #3c8dbc) !important;
+	//background-image: linear-gradient(#f7f7f7, #00a65a) !important;
+	//background-image: linear-gradient(#f7f7f7, #94979d) !important;
+}
+
+.nav-tabs-custom>.nav-tabs>li.active>a, .nav-tabs-custom>.nav-tabs>li.active:hover>a{
+	color: #3c8dbc;
+}
+
+.nav-tabs-custom>.nav-tabs>li>a{
+	color: #666;
+}
+
+#tabledetailchecklist tr:hover{
+	background-color: #f9f9f9 !important;
+}
+
+#tabledetailchecklistreport tr:hover{
+	background-color: #f9f9f9 !important;
+}
+
+.navbar-nav>.user-menu>.dropdown-menu>.user-footer{
+	//background-color: #2a8e60 !important;
+}
+
+.cardBodyTransaction{
+	overflow-y: auto !important;
+	//height: 400px !important;
+	//height: 60vh !important;
+	max-height: 65vh !important;
+}
+
+.card-footer{
+	border-top: 3px solid #007bff;
+}
+
+.myFixedTableHeader {
+  overflow-y: hidden !important;
+}
+
+.myFixedTableHeader thead {
+  display: table;
+}
+
+.myFixedTableHeader tbody {
+  display: block;
+  max-height: 25vh;
+  overflow-y: scroll;
+}
+
+.myFixedTableHeader th, .myFixedTableHeader td {
+  width: 33.33%;
+}
+
+.table.table-head-fixed thead tr:nth-child(1) th {
+	top:-20px;
+}
+
+.custom-file{
+	width: max-content !important;
+}
+.content-wrapper{
+	background-image: linear-gradient(rgb(237, 237, 237), rgb(183, 183, 183)) !important;
+}
+
+/* ############## CUSTOM ############## */
+#myFooter{
+	//background-color: #d7d7f0;
+	background-color: #dedada;
+	//box-shadow:0px 0px 20px 0px #030724;
+}
+#myDashboard{
+	background-color: #000;
+	//background: url('');
+	background-size:100% 100%;
+	color: #000;
+}
+.content-header>.breadcrumb>li>a{
+	color: #cbcbcb;
+}
+.breadcrumb>.active {
+	color: #cbcbcb;
+}
+.content-header>.breadcrumb>li+li:before{
+	content: '>\00a0';
+}
+.breadcrumb>li+li:before{
+	color: #cbcbcb;
+}
+#myDashboardRightColumn{
+	box-shadow: 0px 0px 20px 0px #000;
+	padding: 5%;
+	border-radius: 2vw;
+	//background-color: #001f3f75;
+	//height: 475px;
+}
+#myDashboardRightColumnVideoDiv{
+	box-shadow: inset 0px 0px 20px 0px #000;
+	padding: 5%;
+	border-radius: 2vw;
+	background-color: #2c3333;
+	//background-color: #3fafe1;
+	//height: 28vh;
+	height: auto;
+}
+#myDashboardRightColumnVideo{
+	border-radius: 0.4vw;
+}
+#myDashboardRightColumnVideoDivSpan{
+	margin-top: -5px;
+}
+.myDashboardTile{
+	border-radius: 10px !important;
+}
+.bg-brown{
+	background-color: #795548 !important;
+}
+/* ############## CUSTOM ############## */
